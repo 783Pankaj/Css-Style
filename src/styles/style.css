@@ -1,0 +1,405 @@
+/* .optices{
+    border: 2px solid blue;
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    opacity: 0.5;
+} */
+/* img:hover{
+    margin-top: 20px;
+    border: 2px solid blue;
+    width: 500px;
+    height: 400px;
+   opacity: 0.7;
+} */
+/* img{ */
+    /* Filter */
+    /* we can use multipal filter at same time */
+    /* filter: blur(5px); */
+    /* filter: brightness(15%); */
+    /* filter: contrast(70%); */
+    /* filter: drop-shadow(8px 4px 10px aqua ); */
+    /* filter: grayscale(10%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(30%); */
+    /* filter: opacity(30%); */
+    /* filter: saturate(30%); */
+    /* filter: sepia(30%); */
+/* } */
+/* #div1{
+   width: 600px;
+   height: 400px;
+    border: 2px solid blue; */
+    /* background-image: linear-gradient(green, blue, red, yellow); */
+    /* background-image: radial-gradient(circle, blue 30%, pink 20%, red 40%, green 25%, gold 50%);
+} */
+/* #overflow{
+    margin-top: 50px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    width: 500px;
+    height: 400px; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    /* overflow: auto;
+    margin-bottom: 100px;
+    resize: both; */
+    /* resize: horizontal;
+    resize: vertical;
+    resize: none; */
+/* } */
+/* ul{
+     list-style-type:upper-alpha;
+}
+ol{
+    list-style-type:decimal; */
+    /* list-style-image: url('/public/logo192.png'); */
+/* }
+li{
+    border: 1px solid black ;
+} */
+/* :root{
+    --primary-color: red;
+    --btn-color: lightgreen;
+    --text-coloe: black;
+}
+#fun{
+    background-color: var(--primary-color);
+    height: 200px;
+    width: calc(100%-200px);
+}
+a{
+        padding: 10px 30px;
+        margin: 30px;
+        background-color: var(--btn-color);
+        text-decoration: none;
+        color: var(--text-coloe);
+} */
+
+
+
+
+
+
+/* 19 jul */
+
+/* object fit */
+/* img{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    object-fit: fill;
+    object-fit: cover;
+    object-position: top left;
+} */
+
+
+/* sudo-classes */
+/* li:first-child{
+    color: red;
+} */
+
+/* li:last-child{
+    color: red;
+}  */
+
+/* li:nth-child(4){
+    color: red;
+} */
+
+/* li:nth-child(3n+5){
+    color: red;
+} */
+
+/* input:focus{
+    border: 3px solid red;
+} */
+
+
+
+/* psudo elemnt */
+
+/* p::first-line{
+    color: red;
+    font-size: 35px;
+} */
+
+/* h1::before{
+    content: url(/public/img1.jpg);
+    
+}
+
+h1::after{
+    content: "heading added  affter";
+    
+} */
+
+/* p::selection{
+   color: red;
+   background-color: yellowgreen;
+} */
+
+
+            /* Display */
+/* block => div p h1 form etc(they are defualt) block take full width and heigth
+            1. start with new line
+            2. take full width
+            3. we can applay heigth and width properties
+
+inline => a img span etc (they are defult) inline take only needed space
+           1. not start with new line
+           2. not take full width
+           3. we can not applay heigth and width properties
+
+inline-block
+        1. not start with new line
+        2. not take full width
+        3. we can  applay heigth and width properties
+none */
+
+/* .display{
+    border: 2px solid blue;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+} */
+
+
+/* Position */
+   /* they are four type
+        1.static (default) - its is normal flow
+        2.relative
+        3.fixed
+        4.absoult
+
+       2 se le kar 4 tak hum log es me => top, bottom, left, rigth ye properties use karte hai 
+       */
+ /* #parent{
+   border: 2px solid red;
+   padding: 20px;
+   width: 50%;
+   margin: 100px;
+   position: relative;
+} */
+
+/* #one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative; 
+    z-index: 1;
+} */
+
+/* #two{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block; */
+    /* position: relative; apni place par kisi ko aane nhi deta hai ....kavi vi ese set kar de
+    left: 50px;
+    top:50px */
+    /* position:absolute; ye apne place par aane deta hai and apne parents ke propesties(jaha par display : fixed, absoult, relative likha mile tino me se koi ek) ke hisab se kam karta hai...jab koi nhi milta to body ke hisab se kam kaerta hai */
+     /* position: fixed;
+    bottom: 10px;
+    right: 10px; */
+    /* position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 3;
+} */
+
+/* #three{
+    width: 100px;
+   height: 100px;
+   background-color:yellow ;
+   display: inline-block;
+   position: relative;
+   top: 100px;
+   left: -100px;
+   z-index: 2;
+} */
+
+/* #img1{
+   float: right;
+}
+
+#img2{
+   float: left;
+} */
+
+/* ul{
+    background-color: yellowgreen;
+    list-style-type: none;
+    overflow: auto;
+}
+li{
+    color: white;
+    padding: 10px 35px;
+    float: left;
+} */
+
+/* p{
+    border: 1px solid red;
+    overflow: auto;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+
+#img1{
+ float: right;
+}
+
+#img2{
+    float: right;
+    clear: right;
+} */
+
+#wrapper{
+    padding: 20px;
+    margin: 20px;
+    /* background-color: yellowgreen;
+    transform: matrix(1, -0.2, 0, 1,0, 0); */
+}
+
+a{
+    text-decoration: none;
+    background-color: lightcoral;
+    color: white;
+    padding: 5px 10px;
+    /* transform: translate(50px, 50px); 
+    display: inline-block; */
+    display: inline-block;
+    /* transform: skew(20deg, 10deg); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+    /* transform: rotate(20deg);
+    transform-origin: 0% 100%; */
+}
+a:hover{
+    display: inline-block;
+    /* transform: translate(50px, 50px); */
+    /* transform: rotate(80deg); */
+    /* transform: scale(0.8, 3.0); */
+    /* transform: scaleZ(2); */
+}
+
+#cover{
+    border:2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+}
+
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    position: relative;
+    /* transform: perspective(300px) rotate3d(40 , 30 , 10, 15deg); */
+    transform: perspective(300px) translate3d(50%, 50px, 10px);
+}
+
+#transection-div{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: yellowgreen;
+    /* transition-property: width;
+    transition-property: height; */
+    /* transition-property: width, height background-color; */
+    /* transition-property: all;
+    transition-duration: 2s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease; */
+}
+
+/* #transection-div:hover{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+} */
+
+
+/* Animation */
+  
+@keyframes changecolor{
+    0%{background-color: blue;}
+    25%{width: 400px;;}
+    50%{background-color: pink;}
+    75%{background-color: gold;}
+    100%{background-color: black;}
+}
+
+
+#animate{
+    margin: 20px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+#animate2{
+    margin: 20px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* animation-direction:alternate ; */
+    animation-direction:alternate-reverse ;
+    animation-timing-function: ease-in-out;
+}
+
+/* print */
+/* @media screen {
+    p{
+        font-size: 20px;
+    }
+}
+
+@media print{
+    p{
+        font-size: 100;
+    }
+    img{
+        display: none;
+    }
+} */
+
+
+/* Responsive website */
+
+#div1{
+     width: 70%;
+     background-color: red;
+     float: left;
+     font-size: 80px;
+}
+#div2{
+    width: 30%;
+    background-color: yellow;
+    float: left;
+    font-size: 80px;
+}
+@media screen and (max-width: 400px){
+    #div1{
+        width: 50%;
+    }
+    #div2{
+       width: 50%;
+    }
+}

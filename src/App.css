@@ -1,38 +1,103 @@
-.App {
+/* .App {
   text-align: center;
+  border: 4px solid black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: lightblue;
+  border: 4px solid blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
   color: white;
+} */
+/* p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-variant:small-caps;
+} */
+body{
+  background-color: lightblue;
+}
+  #paragraph{
+  /* border-style: solid; */
+    /* border-style: solid dotted solid dotted; it is work clock views */
+     /* border-width: 5px;  its work four boder side */
+     /* border-width: 5px 7px 9px 11px; */
+     /* border-color: red yellow  green blue; */
+     /* border: 5px solid green;  short cut*/
+     /* border-radius: 50px;  */
+      /* border:  1px solid red; */
+     /* padding: 30px 50px 70px 60px; */
+     
+} 
+
+.paragraph{
+      border: 2px solid pink;
+      /* margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 10px; */
+      margin: 40px auto ;
 }
 
-.App-link {
-  color: #61dafb;
+#text{
+       width: 500px;
+       border: 2px solid green;
+       color: blue;
+       /* text-align: justify; */
+       /* text-decoration:  line-through; */
+       /* text-transform: lowercase; */
+      /* line-height: 30px; */
+      /* letter-spacing: 1px; */
+      /* word-spacing: 10px; */
+      /* white-space: pre-wrap; */
+      /* text-shadow: 1px -10px 4px red; */
+      /* writing-mode:vertical-lr; */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* a{
+  text-decoration: none;
 }
+
+a:link{
+     color: yellowgreen;
+}
+
+a:visited{
+      color: black;
+} 
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: red;
+} */
+
+/* p{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;  
+  font-variant: small-caps;
+} */
+
+/* #units{
+  width: 50wh;
+  height: 50vh;
+  border: 7px solid green;
+} */
+/* .cursore{
+  border: 2px solid yellowgreen;
+  margin: 20px; */
+  /* width: 100px;
+  height: 100px; */
+  /* cursor:not-allowed; */
+  /* cursor: progress; */
+ /* box-shadow: 10px 10px 5px 3px grey ; */
+ /* box-shadow: 10px 10px 5px 3px grey inset; */
+ /* box-shadow: 10px 10px 5px 3px grey , -10px -10px 5px 3px blue;
+} */
+
+/* 19 jul */
+
