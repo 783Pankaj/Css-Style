@@ -124,8 +124,53 @@ His reign was marked by domestic peace and prosperity and likely represented the
                 Al-Walid ibn Abd al-Malik ibn Marwan (Arabic: الوليد بن عبد الملك بن مروان, romanized: al-Walīd ibn ʿAbd al-Malik ibn Marwān; c. 674 – 23 February 715),[a] commonly known as al-Walid I (Arabic: الوليد الأول), was the sixth Umayyad caliph, ruling from October 705 until his death. He was the eldest son of his predecessor, Caliph Abd al-Malik (r. 685–705). As a prince, he led annual raids against the Byzantines from 695 to 698 and built or restored fortifications along the Syrian Desert route to Mecca. He became heir apparent in c. 705, after the death of the designated successor, Abd al-Malik's brother Abd al-Aziz ibn Marwan.   
                 </p>
             </div> */}
-            <div id='div1'>Div 1</div>
-            <div id='div2'>Div 2</div>
+            {/* <div id='div1'>Div 1</div>
+            <div id='div2'>Div 2</div> */}
+
+            {/* <div>
+                <h1>selector</h1>
+                <p>Wikipedia[note 3] is an online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and using a wiki-based editing system called MediaWiki. Wikipedia is the largest and most-read reference work in history,[3][4] and has consistently been one of the 10 most popular websites.[5] Created by Jimmy Wales and Larry Sanger on January 15, 2001, it is hosted by the Wikimedia Foundation, an American non-profit organization.
+
+Initially available only in English, versions in other languages were quickly developed. Wikipedia's combined editions comprise more than 61 million articles, attracting around 2 billion unique device visits per month and more than 15 million edits per month (about 5.7 edits per second on average) as of January 2023.[6][7]</p>
+               <ul>
+                <li>List 1</li>
+                <li id='list2'>List 2</li>
+                <li>List 3</li>
+                <li>List 4</li>
+                <li className='list5'>List 5 <a  href='https://www.google.com'>Google</a></li>
+                <li  className='list5'>List 6</li>
+                <li>List 7 <a href=''> Yahoo</a></li>
+                <li>List 8</li>
+               </ul>
+            </div>
+            <a href=''>outside link</a> */}
+             {/* <div>
+                <h1>and maintained by a community of volunteers, known as Wikipedians, through open collaboration and using </h1>
+             <p>Wikipedia[note 3] is an online encyclopedia written and maintained by a community of volunteers, known as Wikipedians, through open collaboration and using a wiki-based editing system called MediaWiki. Wikipedia is the largest and most-read reference work in history,[3][4] and has consistently been one of the 10 most popular websites.[5] Created by Jimmy Wales and Larry Sanger on January 15, 2001, it is hosted by the Wikimedia Foundation, an American non-profit organization.
+
+Initially available only in English, versions in other languages were quickly developed. Wikipedia's combined editions comprise more than 61 million articles, attracting around 2 billion unique device visits per month and more than 15 million edits per month (about 5.7 edits per second on average) as of January 2023.[6][7]</p>
+             </div> */}
+
+             {/* <div className='flex-container'>
+                <div className='flex-child' id='one'>One</div>
+                <div className='flex-child' id='two'>Two</div>
+                <div className='flex-child' id='three'>Three</div>
+                <div className='flex-child'>Four</div>
+                <div className='flex-child'>Five</div>
+                <div className='flex-child'>six</div>
+                <div className='flex-child'>seven</div>
+                <div className='flex-child'>eigth</div>
+             </div> */}
+
+             <div className ="grid-container">
+               <div className='grid-item' id='grid-1'>1</div>
+               <div className='grid-item' id='grid-2'>2</div>
+               <div className='grid-item' id='grid-3'>3</div>
+               <div className='grid-item' id='grid-4'>4</div>
+               <div className='grid-item' id='grid-5'>5</div>
+               
+             </div>
+
         </>
 
     )
